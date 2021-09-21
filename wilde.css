@@ -1,0 +1,47 @@
+.speech
+{
+    font-family: Trebuchet MS;
+    font-size:13px;
+    color:black;
+}
+.stage-direction
+{
+    font-family: 'Times New Roman';
+    color:black;
+    font-size:13px ;
+    background-color: rgb(173, 245, 211);       
+}
+.ALGERNON
+{
+    color:rgb(170, 140, 8);
+}
+.LANE
+{
+    color:rgb(14, 56, 194);
+}
+table 
+{
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+td
+{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+tr
+{
+    border: 1px solid black;
+    padding: 10px;
+    background-color:rgb(214, 64, 18) ;
+}
+tr:nth-child(even) 
+{
+    background-color: #ddd9d9;
+}
