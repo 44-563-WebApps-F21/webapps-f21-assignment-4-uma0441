@@ -64,7 +64,7 @@ tr:nth-child(even)
 .navbar 
 {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(37, 31, 31);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -78,14 +78,4 @@ tr:nth-child(even)
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  .navbar a:hover 
-  {
-    background: #c47474;
-    color: rgb(46, 30, 30);
-  }
-  .navbar a.active 
-  {
-    background-color: #4352da;
-    color: white;
   }
