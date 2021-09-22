@@ -61,15 +61,16 @@ tr:nth-child(even)
     filter: blue(3px);
     border: solid 2px rgb(54, 45, 37);
 }
-.navbar {
+.navbar 
+{
     overflow: hidden;
     background-color: #333;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-  
-  .navbar a {
+  .navbar a 
+  {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -78,13 +79,13 @@ tr:nth-child(even)
     text-decoration: none;
     font-size: 17px;
   }
-  
-  .navbar a:hover {
-    background: #f1f1f1;
-    color: black;
+  .navbar a:hover 
+  {
+    background: #c47474;
+    color: rgb(46, 30, 30);
   }
-  
-  .navbar a.active {
-    background-color: #04AA6D;
+  .navbar a.active 
+  {
+    background-color: #4352da;
     color: white;
   }
