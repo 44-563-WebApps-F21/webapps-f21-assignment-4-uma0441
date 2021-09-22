@@ -19,15 +19,24 @@
 {
     color:rgb(14, 56, 194);
 }
+.JACK
+{
+    color:rgb(219, 66, 28);
+}
+.stage-direction:hover
+{
+    color: rgb(0,0,3);
+    background-color: rgb(62, 114, 224);
+}
 table 
 {
     border: 1px solid black;
     width: 50%;
     height: 50%;
     margin-top: 50px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 td
 {
@@ -39,9 +48,16 @@ tr
 {
     border: 1px solid black;
     padding: 10px;
-    background-color:rgb(214, 64, 18) ;
+    background-color:rgb(93, 160, 223) ;
 }
 tr:nth-child(even) 
 {
     background-color: #ddd9d9;
+}
+.name:hover{
+    text-shadow: 2px 4px 3px rgb(194, 196, 121) ;
+    color:rgb(112, 131, 216);
+    filter: blue(3px);
+    border: solid 2px rgb(54, 45, 37);
+
 }
